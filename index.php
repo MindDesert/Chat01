@@ -1,11 +1,7 @@
 <?php
-
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
-
-    require 'path/to/PHPMailer/src/Exception.php';
-    require 'path/to/PHPMailer/src/PHPMailer.php';
-    require 'path/to/PHPMailer/src/SMTP.php'
+    require 'Exception.php';
+    require 'PHPMailer.php';
+    require 'SMTP.php'
     // create an instance
     $mail= new PHPMailer();
     
