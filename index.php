@@ -1,4 +1,6 @@
 <?php
+
+    require 'vendor/autoload.php';
     // create an instance
     $mail= new PHPMailer();
     
